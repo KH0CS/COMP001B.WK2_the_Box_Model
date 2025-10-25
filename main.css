@@ -70,10 +70,11 @@ p {
 #about-photo {
 	.position: relative;
 	float: left;
-	margin: 2em;
 	border-style: double;
 	border-width: medium;
 	border: 3px solid red;
+	margin: 2em;
+	padding: 2em;
 
 
 
