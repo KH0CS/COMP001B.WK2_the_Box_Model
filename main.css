@@ -31,12 +31,15 @@ h3 {
 
 p {
 
+
 }
 
 .album-art {
+	.position: relative;
+	float: left; 
 	border: 3px solid red;
 	margin: 2em; 
-	padding: 3em;
+	padding: 1em;
 	width: auto;
 
 }
@@ -46,10 +49,17 @@ p {
 }
 
 .image-electronics, .image-stage-effects {
+	.position: relative;
+	float: left; 
+	border: 3px solid red;
+	margin: 2em; 
+	padding: 1em;
+	width: auto;
 	
 }
 
 .record-label {
+	color: red;
 
 }
 
@@ -58,6 +68,14 @@ p {
 }
 
 #about-photo {
+	.position: relative;
+	float: left;
+	margin: 2em;
+	border-style: double;
+	border-width: medium;
+	border: 3px solid red;
+
+
 
 }
 
@@ -70,9 +88,12 @@ p {
 
 #section-about, #section-discography, #section-equipment {
 	border: 3px solid red;
+	border-style: double;
+	border-width: medium;
 	margin: 2em; 
 	padding: 2em;
 	width: auto;
+
 
 }
 
